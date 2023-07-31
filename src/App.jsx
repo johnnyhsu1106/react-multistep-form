@@ -38,7 +38,7 @@ function App() {
     if (currStepIndex + 1 !== numOfSteps) {
       return;
     }
-
+    // Send the data back to the server 
     alert(JSON.stringify(formData, undefined, 4));
   }
 

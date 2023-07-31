@@ -22,7 +22,7 @@ const NavButtons = ({
         type='submit'
         onClick={onNextBtnClick}
       >
-        {currPageNum === totalPagination ? 'Submit' : 'Next'}
+        {currPageNum === totalPageNum ? 'Submit' : 'Next'}
       </button>
     </div>
   )
