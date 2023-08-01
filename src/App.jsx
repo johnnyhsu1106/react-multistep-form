@@ -45,7 +45,7 @@ function App() {
   return (
     <div className='form-container'>
       <form onSubmit={handleFormDataSubmit}>
-
+    
         <Pagination
           currPageNum={currStepIndex + 1}
           totalPageNum={numOfSteps}
@@ -61,7 +61,6 @@ function App() {
         />
       
       </form>
-
     </div>
   )
 }
