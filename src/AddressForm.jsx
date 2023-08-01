@@ -9,6 +9,7 @@ const AddressForm = ({
   zipcode,
   onUpdateFormData
 }) => {
+
   const inputs = [
     {type: 'text', label: 'Street', field: 'street', value: street},
     {type: 'text', label: 'City', field: 'city', value: city},

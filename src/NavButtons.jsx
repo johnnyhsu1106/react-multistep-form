@@ -6,6 +6,7 @@ const NavButtons = ({
   onClickBackBtn,
   onClickNextBtn
 }) => {
+
   return (
     <div className='btn-wrapper'>
       {currPageNum === 1 ? null : 

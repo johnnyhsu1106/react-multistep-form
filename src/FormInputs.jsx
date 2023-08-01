@@ -2,7 +2,11 @@ import React from 'react'
 
 import FormInput from './FormInput';
 
-const FormInputs = ({ inputs, onUpdateFormData }) => {
+const FormInputs = ({ 
+  inputs, 
+  onUpdateFormData 
+}) => {
+
   return (
     inputs.map((input) => {
       const { field } = input;
