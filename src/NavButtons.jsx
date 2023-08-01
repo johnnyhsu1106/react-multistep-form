@@ -3,8 +3,7 @@ import React from 'react'
 const NavButtons = ({
   currPageNum,
   totalPageNum,
-  onClickBackBtn,
-  onClickNextBtn
+  onClickBackBtn
 }) => {
 
   return (
@@ -21,7 +20,6 @@ const NavButtons = ({
       <button
         className='btn' 
         type='submit'
-        onClick={onClickNextBtn}
       >
         {currPageNum === totalPageNum ? 'Submit' : 'Next'}
       </button>

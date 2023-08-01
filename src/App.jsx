@@ -35,6 +35,8 @@ function App() {
 
   const handleFormDataSubmit = (e) => {
     e.preventDefault();
+    handleNextStepBtnClick();
+    
     if (currStepIndex + 1 !== numOfSteps) {
       return;
     }
@@ -57,7 +59,6 @@ function App() {
           currPageNum={currStepIndex + 1}
           totalPageNum={numOfSteps}
           onClickBackBtn={handleBackStepBtnClick}
-          onClickNextBtn={handleNextStepBtnClick}
         />
       
       </form>
