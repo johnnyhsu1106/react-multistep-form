@@ -25,7 +25,7 @@ const FormInput = ({
         id={inputId}
         type={type}
         value={value || ''}
-        onChange={(e) => {onUpdateFormData({ [field] : e.target.value})}}
+        onChange={(e) => {onUpdateFormData({ [field] : e.target.value })}}
       />
   </>
   )
