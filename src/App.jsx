@@ -35,9 +35,9 @@ function App() {
 
   const handleFormDataSubmit = (e) => {
     e.preventDefault();
-    handleNextStepBtnClick();
     
     if (currStepIndex + 1 !== numOfSteps) {
+      handleNextStepBtnClick();
       return;
     }
     // Send the data back to the server 
