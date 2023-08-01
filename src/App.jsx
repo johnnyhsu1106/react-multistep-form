@@ -56,8 +56,8 @@ function App() {
         <NavButtons 
           currPageNum={currStepIndex + 1}
           totalPageNum={numOfSteps}
-          onBackBtnClick={handleBackStepBtnClick}
-          onNextBtnClick={handleNextStepBtnClick}
+          onClickBackBtn={handleBackStepBtnClick}
+          onClickNextBtn={handleNextStepBtnClick}
         />
       
       </form>
