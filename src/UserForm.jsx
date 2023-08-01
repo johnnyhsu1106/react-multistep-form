@@ -18,7 +18,7 @@ const UserForm = ({
   ];
 
   return (
-    <FormWrapper title='Address'>
+    <FormWrapper title='User Info'>
       <FormInputs inputs={inputs} onUpdateFormData={onUpdateFormData} />
     </FormWrapper>
   )

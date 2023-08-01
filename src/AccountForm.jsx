@@ -14,7 +14,7 @@ const AccountForm = ({
   ];
   
   return (
-    <FormWrapper title='Account'>
+    <FormWrapper title='Account Setup'>
       <FormInputs inputs={inputs} onUpdateFormData={onUpdateFormData} />
     </FormWrapper>
   )
