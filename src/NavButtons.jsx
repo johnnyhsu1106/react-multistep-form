@@ -9,13 +9,13 @@ const NavButtons = ({
   return (
     <div className='btn-wrapper'>
       {currPageNum === 1 ? null : 
-      <button
-        className='btn' 
-        type='button'
-        onClick={onClickBackBtn}
-      >
-        Back
-      </button>
+        <button
+          className='btn' 
+          type='button'
+          onClick={onClickBackBtn}
+        >
+          Back
+        </button>
       }
       <button
         className='btn' 

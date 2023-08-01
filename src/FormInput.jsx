@@ -7,12 +7,20 @@ const FormInput = ({
   value,
   onUpdateFormData
 }) => {
+
+  const inputRef = useRef();
   const id = useId();
-  const inputId=`${id}-${field}`
+  const inputId=`${id}-${field}`;
+
+  if (inputRef.current && type === 'number') {
+    inputRef.current.setAttribute('min', 1);
+  }
+
   return (
     <>
       <label htmlFor={inputId}>{label}</label>
       <input
+        ref={inputRef}
         required
         id={inputId}
         type={type}

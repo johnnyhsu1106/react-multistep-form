@@ -10,7 +10,7 @@ const FormInputs = ({ inputs, onUpdateFormData }) => {
       return (
         <FormInput
           key={field} 
-          {...input} 
+          {...input}
           onUpdateFormData={onUpdateFormData} />
       )
     })
