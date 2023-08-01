@@ -18,7 +18,7 @@ const useMultistepForm = (stepComponents) => {
 
   return ({
     currStepIndex,
-    stepComponent: stepComponents[currStepIndex],
+    currStepComponent: stepComponents[currStepIndex],
     handleBackStepBtnClick,
     handleNextStepBtnClick,
     numOfSteps,

@@ -28,7 +28,7 @@ function App() {
   const { 
     currStepIndex,
     numOfSteps,
-    stepComponent,
+    currStepComponent,
     handleBackStepBtnClick,
     handleNextStepBtnClick
   } = useMultistepForm(stepComponents);
@@ -51,7 +51,7 @@ function App() {
           totalPageNum={numOfSteps}
         />
         
-        {stepComponent}
+        {currStepComponent}
 
         <NavButtons 
           currPageNum={currStepIndex + 1}
