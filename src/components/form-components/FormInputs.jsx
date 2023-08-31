@@ -1,6 +1,5 @@
-import React from 'react'
-
 import FormInput from './FormInput';
+
 
 const FormInputs = ({ 
   inputs, 

@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import { useMultistepForm } from './useMultistepForm'
+import { useMultistepForm } from './hooks/useMultistepForm'
 
-import UserForm from './UserForm';
-import AddressForm from './AddressForm';
-import AccountForm from './AccountForm';
-import Pagination from './Pagination';
-import NavButtons from './NavButtons';
+import UserForm from './components/form/UserForm';
+import AddressForm from './components/form/AddressForm';
+import AccountForm from './components/form/AccountForm';
+import Pagination from './components/Pagination';
+import NavButtons from './components/NavButtons';
 
 import './App.css'
 
@@ -18,7 +18,6 @@ function App() {
     })
   };
   
-
   const stepComponents = [
     <UserForm {...formData} onUpdateFormData={handleFormDataUpdate} />,
     <AddressForm {...formData} onUpdateFormData={handleFormDataUpdate} />,

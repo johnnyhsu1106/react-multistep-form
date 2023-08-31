@@ -1,7 +1,5 @@
-import { useId } from 'react'
-import FormWrapper from './FormWrapper';
-import FormInputs from './FormInputs';
-
+import FormWrapper from '../form-components/FormWrapper';
+import FormInputs from '../form-components/FormInputs';
 
 
 const UserForm = ({
